@@ -1,11 +1,57 @@
+
 body {
-  /*Change the background of the entire site to light blue*/
-  background-color:lightblue;
-  /*Change the font of the website to Arial*/
-  font-family: Arial;
+  background-color: whitesmoke;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+  color: cornflowerblue;
+}
+h2 {
+  color: chocolate;
+}
+
+h3 {
+  color: darkblue;
+}
+
+h4 {
+  color: darkblue;
 }
 
 p {
-  /*Change the color of all paragraphs to red*/
-  color: white;
+  color: darkblue;
+  font-size: 150%;
+}
+
+a:link {
+  color: darkgoldenrod;
+  background-color: transparent;
+  text-decoration: blanchedalmond;
+}
+
+a:visited {
+  color: black;
+  background-color: floralwhite;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lawngreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#picture1 {
+  align-self: center;
+}
+
+.row {
+  padding-bottom: 20px;
 }

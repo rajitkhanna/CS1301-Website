@@ -2,21 +2,112 @@
 <html>
 
 <head>
-    <title>Rajit Khanna</title>
+    <title>About Rajit</title>
     <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <h1> Rajit Khanna </h1>
-    <h2 style="color:chocolate"> Welcome to my personal website, follow me on the gram <a href="https://www.instagram.com/born2kickbooty/?hl=en">@born2kickbooty</a></h2>    
-    <h2>Here is a website about me!<a href = "https://github.com/rkhanna19/CS1301-Website"> See the repo.</a></h2>
-    <img src="images/Mamu's House2.jpeg" alt="Rajit Khanna" style="width: 256; ;height:256;">
+    <section class = "container">
+        <div class = "jumbotron text-center">
+                <h1> Welcome to Rajit Khanna's Personal Website </h1>
+        </div>
+        <div class = "alert alert-success alert-dismissible">
+            <button type="button" class = "close" data-dismiss="alert">×</button>
+            <strong>Success!</strong> You have arrived upon the greatest website known to man.
+        </div>
+    </section>
     
-    <p>My name is Rajit Khanna. I am a first-year CS major from Nashua, NH. I enjoy playing soccer, spending time with family, and running. 
-    <p> </p>
-        <a href = "https://www.youtube.com/watch?v=-YJIyI-ktbA"><img src = "images/Futbol.JPG" alt = "Soccer Star" style = "width: 256; height: 256;"></a>
-        <p>Some spicy news from this week:</p>
-        <a href="https://gph.is/g/4wPpmBj">via GIPHY</a>
+    <section class = "container">
+        <div class = "row">
+                <h2> Follow me on the gram 
+                        <a href="https://www.instagram.com/born2kickbooty/?hl=en">@born2kickbooty</a></h2>
+        </div>
+
+        <div class = "row">
+            <div class = "col-sm-6">
+                
+                    
+                <h3>Here is a website about me!<a href = "https://github.com/rkhanna19/CS1301-Website"> See the repo.</a></h3>
+                <p>Other projects I've worked on include:</p>
+                <ul>
+                    <li>Building artificial neural networks</li>
+                    <li>Developing iOS applications</li>
+                    <li>Programming a web application</li>
+                </ul>
+               
+            </div>
+            <div class = "col-sm-2">
+
+            </div>
+            <div class = "col-sm-4">
+                <img id = "picture1" src="images/Mamu's House2.jpeg" class = "rounded-circle" alt="Rajit Khanna" style="width: 256px; ;height:256px;">
+            </div>
+        </div>        
+        <div class = "row">
+            <div class = "col-sm-6">
+                    <p>I am a first-year CS major from Nashua, NH. I enjoy:
+                            <ul>
+                                <li>playing soccer </li>
+                                <li>spending time with family</li>
+                                <li>reading</li>
+                            </ul>
+                    <p>Click on the photo on the right to see my soccer highlights. </p> 
+            </div>
+            <div class = "col-sm-2">
+
+            </div>
+            <div class = "col-sm-4">
+                    <a href = "https://www.youtube.com/watch?v=-YJIyI-ktbA">
+                        <img src = "images/Futbol.JPG" class = "rounded" alt = "Soccer Star" style = "width: 256px; height: 256px;"></a>
+                        <!--To center images class = "mx-auto d-block" -->
+            </div>
+        </div>
+        <div class = "row">
+            <p>Quotes I think about all the time:</p>
+            <table class = "table table-bordererd">
+                <thead>
+                    <tr>
+                        <th>Author</th>
+                        <th>Work</th>
+                        <th>Quote</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Yann Martel</td>
+                        <td>Life of Pi</td>
+                        <td>Time is an illusion that only makes us pant.</td>
+                    </tr>
+                    <tr>
+                        <td>T.S. Eliot</td>
+                        <td>The Waste Land</td>
+                        <td>These fragments I have shored against my ruins.</td>
+                    </tr>
+                    <tr>
+                        <td>Vergil</td>
+                        <td>The Aeneid</td>
+                        <td>Solvite corde metum, Teuci, secludite curas.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class = "row">
+            <p>Spicy news: <a href="https://gph.is/g/4wPpmBj">via GIPHY</a></p>
+        </div>
+        <div class = "row">
+                <button type="button" class="btn btn-primary btn-block">Thoughts on Science and Religion</button>
+        </div>
+    </section>
+    
+    
+    
+        
     </p>
 
 </body>
